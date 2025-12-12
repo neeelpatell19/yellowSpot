@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import FooterLogo from "../Navbar/CombineLogo.jpg"
+import FooterLogo from "../Navbar/CombineLogo2.jpg"
 import { Row, Col } from "antd";
 import instgramImg from "../Home/iconsImages/Vector4.svg"
 import twitterImg from "../Home/iconsImages/Vector8.svg"
