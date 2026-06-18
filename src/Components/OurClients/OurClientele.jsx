@@ -53,7 +53,7 @@ const OurClientele = () => {
                         <Row>
                             {ClientDataLogos.map((item, index) => (
                                 <Col lg={6} md={8} sm={12} key={index} id="ColSet">
-                                    <a href={item.clientWebLink} target="_blank" className="card-link">
+                                    <div className="card-link">
                                         <div className="maincard">
                                             <div className="flip-card">
                                                 <div className="flip-card-inner">
@@ -73,7 +73,7 @@ const OurClientele = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </div>
                                 </Col>
                             ))}
                         </Row>
@@ -109,7 +109,7 @@ const OurClientele = () => {
                                 .sort((a, b) => a.ClientName.localeCompare(b.ClientName)) // Sort the array alphabetically by ClientName
                                 .map((item, index) => (
                                     <Col lg={4} md={8} sm={12} key={index} id="DirectClients">
-                                        <a href={item.clientWebLink} target="_blank" className="card-link">
+                                        <div className="card-link">
                                             <div className="maincard">
                                                 <div className="flip-card">
                                                     <div className="flip-card-inner">
@@ -129,7 +129,7 @@ const OurClientele = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </Col>
                                 ))}
 
