@@ -1,12 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css"
-import { Link, useLocation } from "react-router-dom"
-import logo from "../Navbar/logo1.svg"
-import CombineLogo from "../Navbar/CombineLogo.jpg"
-import CombineLogo2 from "../Navbar/CombineLogo2.jpg"
+import { Link } from "react-router-dom"
 const Navbar = () => {
-  const location = useLocation();
-  const currentLogo = location.pathname === "/AboutUS" ? CombineLogo : CombineLogo2;
   const handleLeftHover = () => {
     document.querySelector('.left-side-ul .line > div').style.transform = 'translateX(-20px)';
     document.querySelector('.left-side-ul .line > div').style.width = '15px';
@@ -48,11 +43,6 @@ const Navbar = () => {
     <>
       <header className="header" id="header">
         <div className="main-nav-container">
-          <div className="website-identity">
-            <div className="yellow-spot-logo">
-              <Link to="/"><img src={currentLogo} alt="Yellow-Spot Logo" style={{ width: "180px" }} /></Link>
-            </div>
-          </div>
           <div style={{ display: "flex" }}>
             <div className="left-side-links">
               <div className="container">

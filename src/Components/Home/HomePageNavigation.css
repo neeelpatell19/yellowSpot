@@ -7,7 +7,7 @@ a {
   top: 0px;
   z-index: 555;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   width: 100%;
   z-index: 555555555;
@@ -24,7 +24,7 @@ a {
     top: 0px;
     z-index: 555;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
     z-index: 555555555;
     padding: 30px 20px;

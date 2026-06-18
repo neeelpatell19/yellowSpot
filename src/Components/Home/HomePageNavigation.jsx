@@ -15,7 +15,6 @@ import vector5 from "../Home/iconsImages/Vector5.svg"
 import vector6 from "../Home/iconsImages/Vector6.svg"
 import vector7 from "../Home/iconsImages/Vector7.svg"
 import vector8 from "../Home/iconsImages/Vector8.svg"
-import CombineLogo from "../Navbar/CombineLogo.jpg"
 import Contact from "../Home/iconsImages/ContactUs.svg"
 const HomePageNavigation = () => {
     const [open, setOpen] = useState(false);
@@ -38,7 +37,6 @@ const HomePageNavigation = () => {
     }; return (
         <>
             <section id="home-page-header">
-                <Link to="/"> <img src={CombineLogo} alt="Yellow-Spot Logo" className="logo-home" /></Link>
                 <button className="menu-btn" onClick={showDrawer}>
                     <span className={`icon-transition ${drawerVisible ? 'rotate-180' : ''}`}>
                         {drawerVisible ? <CloseOutlined /> : <MenuOutlined />}
