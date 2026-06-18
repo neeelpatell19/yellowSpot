@@ -158,7 +158,7 @@ const Home = () => {
                             <img src={OutDoor} alt="" />
                           </div>
                           <CountUp
-                            end={400}
+                            end={680}
                             duration={10}
                             suffix="+"
                           />
