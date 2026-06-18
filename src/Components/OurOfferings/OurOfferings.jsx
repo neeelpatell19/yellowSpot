@@ -43,7 +43,7 @@ const OurOfferings = () => {
             <br /><br />
 
             <section id="OurProducts" className="container">
-                <SwiperHeadingIcon headingText="OUR PRODUCTS" />
+                <SwiperHeadingIcon headingText="OUR INVENTORIES" />
                 <Inventory />
             </section>
             <br /><br />
