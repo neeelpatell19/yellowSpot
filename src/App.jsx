@@ -15,9 +15,11 @@ import DynamicCreateShape from "./Components/DynamicCreateShape/DynamicCreateSha
 import OurClientele from "./Components/OurClients/OurClientele";
 import "../src/index.css"
 import AnimatedCoverPage from "./Components/animatedCoverPage/animatedCoverPage";
+import MetaPixelTracker from "./Components/MetaPixelTracker/MetaPixelTracker";
 function App() {
   return (
     <BrowserRouter>
+      <MetaPixelTracker />
       <div>
         {/* <Navbar /> */}
         <Routes>
